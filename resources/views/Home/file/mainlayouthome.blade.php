@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Book Store</title>
 
-	@include('Home.include.appstyle')
+	@include('Home.include.appstylehome')
 	@include('Home.include.calenders')
 	@include('Home.include.tablestyle')
 </head>
@@ -13,7 +13,7 @@
 
 	<div class="container">
 
-		@yield('content')
+		@yield('contenthome')
 
 		</div>
 
